@@ -1,0 +1,31 @@
+.main-wrapper {
+    width : 700px;
+    height : 800px;
+    margin : auto;
+    border : 3px solid black;
+    border-radius : 20px 20px 20px 20px;
+}
+
+.title {
+    width : 675px;
+    height : 75px;
+    border : 3px solid black;
+    border-radius : 20px 20px 20px 20px;
+    margin : 10px 10px 10px 10px;
+}
+
+.title > h1 {
+    text-align : center;
+}
+
+
+
+.contents {
+    width : 655px;
+    height : 665px;
+    border : 3px solid black;
+    border-radius : 20px 20px 20px 20px;
+    margin : 10px 10px 10px 10px;
+    padding : 10px 10px 10px 10px;
+}
+

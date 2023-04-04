@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculators</title>
+    <link rel="stylesheet" href="../Public/Style/calculatorStyle.css">
+    <link rel="stylesheet" href="Style/RatioCalculatorStyle.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+        <div class="title">
+
+            <h1>Ratio Calculators</h1>
+
+        </div>
+
+
+        <div class="contents">
+
+            <div id="input">
+                <div id="hor">
+                    <span>Horizontal Length : </span>
+                    <input type="number" id="horizontal" placeholder="Horizontal length" value="0">
+                </div>
+                <div id="ver">
+                    <span>Vertical Length : </span>
+                    <input type="number" id="vertical" placeholder="Vertical length" value="0">
+                </div>  
+            </div>
+
+            <div id="controller">
+                <span>Ratio Controller Value : <span>
+                <input type="number" id="ratioValue">
+                <input type="range" id="ratioController" min="0.001" max="10000" value="1" step="0.001">
+                <input type="button" id="controllerReset" value="Reset">
+                
+            </div>
+
+            <div id="result">
+                <span id="ratioResult">0 x 0</span>
+                <br>
+                <span id="ratio">0 : 0</span>
+            </div>
+
+        </div>
+
+        
+    </div>
+
+    <script type="text/javascript" src="Script/Script.js"></script>
+
+
+</body>
+</html>
